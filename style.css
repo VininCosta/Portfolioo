@@ -62,19 +62,6 @@ body {
     border-radius: 5px;
   }
 
-  .midias-sociais {
-    background: #fff;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    width: 30%;
-    margin-left: 25px;
-    margin-top: -5px;
-    height: 150px;
-  }
-
-  .midias-sociais h2 {
-      text-align: center;
-  }
 
   .span-nome {
       font-size: 20px;
@@ -178,15 +165,11 @@ body {
 }
 
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 760px) {
     .nav-header a {
         margin-left: -40px;
     }
-    .geral{
-        width: 100%;
-        margin-left: 22px;
-        height: 90%;
-    }
+
     .foto img {
         width: 70%;
         margin-left: 40px ;
@@ -211,6 +194,7 @@ body {
         margin-left: 10px;
         margin-top: 50px;
         width: 100%;
+        color: #fff;
     }
     .localizacao {
         margin-top: 20px;
