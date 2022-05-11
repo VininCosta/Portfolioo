@@ -85,16 +85,23 @@ body {
       font-size: 15px;
   }
 
-  .midias-sociais ul {
-      display: flex;
-      list-style-type: none;
-      margin-left: 70px;
-      margin-top: -20px;
-  }
+.foto nav ul {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: row;
+    margin-left: 90px;
+}
 
-  .midias-sociais ul li {
-      margin-left: 20px;
-  }
+.foto nav ul li {
+    margin-left: 20px;
+    margin-top: -35px;
+}
+
+.btn a{
+    width: 100%;
+    margin-left: 85px;
+}
 
  .about-me {
      width: 45%;
@@ -171,7 +178,7 @@ body {
 }
 
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 380px) {
     .nav-header a {
         margin-left: -40px;
     }
@@ -182,19 +189,19 @@ body {
     }
     .foto img {
         width: 70%;
-        margin-left: 60px ;
+        margin-left: 40px ;
     }
-    .midias-sociais {
-        width: 70%;
-        margin-left: 60px;
-        margin-top: 0;
+    .foto nav ul {
+        margin-left: 65px;
     }
-    .midias-sociais ul {
-        margin-left: 60px;
+
+    .foto nav ul li {
+        margin-left: 10px;
     }
-    .midias-sociais a {
-        margin-left: -35px;
-        margin-top: -15px;
+
+    .btn a {
+        width: 100%;
+        margin-left: 55px;  
     }
     
     #about {
