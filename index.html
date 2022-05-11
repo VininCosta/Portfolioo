@@ -14,27 +14,34 @@
     <title>Portfolio Vinicius Costa</title>
 </head>
 <body>
-    <main>
-        <section id="about" class="about">
-    <header>
-        <div class="logo">
-           <b>PortfólioVC</b>
-        </div>
-        <nav class="nav-header">
-            <ul>
-                <li><a href="#sm">Sobre mim</li></a>
-                <li><a href="#pj">Projetos</li></a>
-                <li><a href="#ct">Contato</li></a>
-            </ul>
-        </nav>
-    </header> <br><br><br>
+  <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand" href="#" style="margin-left: 105px; color: white;">VC Portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#sm" style="display: flex; margin-left: 700px; font-size: 18px; color: #fff">Sobre mim</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#pj" style="display: flex; font-size: 18px; color: #fff">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ct" style="display: flex; font-size: 18px; color: #fff">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</div><br><br><br>
         
-        <div class="geral">
-        <div class="sobre-mim" id="sm">
+        <div class="container-xl bg-dark">
+        <div class="container-sm" id="sm">
             <div class="foto">
                 <img src="./img/WhatsApp Image 2021-08-17 at 13.40.15.jpeg" alt="Foto Vinicius Costa">
             </div>
-        </div> 
+        
         <div class="midias-sociais">
                 <h2>
                     <span class="span-nome"><b>Vinicius Thomaz Vieira da Costa</b></span> 
@@ -52,13 +59,14 @@
                         </a></li>
                     </ul>
                 </nav>
-                <a target="_blank" href="https://resume.io/r/tKYCP41yV"><button type="button" class="btn btn-primary" style="margin-left: 90px; width: 50%;">Currículo</button></a>
+                <a target="_blank" href="https://resume.io/r/tKYCP41yV"><button type="button" class="btn btn-primary" style="margin-left: 80px; width: 50%;">Currículo</button></a>
         </div>
-
+      </div> 
         <div class="about-me">
-            <h3>Sobre mim</h3> <br>
-            <p>Sou um amante da tecnologia, com formação também na área administrativa, especializado em front-end web. Possuo conhecimentos em ferramentas HTML, CSS, Javascript, React.js e Node.js para construção e design de experiências digitais. Procuro sempre estar me atualizando, dentro do mundo da tecnologia, e estudando cada vez mais para aprimorar minhas habilidades.</p>
-            <p>Procuro uma oportunidade na área de Front-end, para que eu possa colocar em prática todo meu aprendizado e minha vontade, e crescer juntamente com sua empresa. </p> <hr>
+          <br><br>
+            <h3>Sobre mim</h3> 
+            <p>Sou um amante da tecnologia, com formação também na área administrativa. Possuo conhecimentos em ferramentas HTML, CSS, Javascript, React.js e Node.js para construção e design de experiências digitais. Procuro sempre estar me atualizando, dentro do mundo da tecnologia.</p>
+
             <h4>Formação Acadêmica</h4> <br>
 
             <ul>
@@ -85,7 +93,7 @@
                 <li><strong>Curso:</strong>
                 Tecnólogo em Processos Gerenciais;</li>
                 <li><strong>Formação:</strong>
-                Dezembro/2015</li>
+                Dezembro/2015</li><br><br><br>
             </ul>
         </div>
     </div>
@@ -94,8 +102,20 @@
         <h1 id="pj">Projetos</h1>  <br>
         <div>
     <div class="container" style="z-index: 99;">
-
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="./img/vini-flix.png">
+            <div class="card-body">
+              <p class="card-text">Site de filmes feito em React.js consumindo API externa<br><br></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a target="_blank" href="https://github.com/VininCosta/vini-flix"><button type="button" class="btn btn-secondary">Ver Projeto</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col">
           <div class="card shadow-sm">
             <img src="./img/todo.jpg">
@@ -108,33 +128,21 @@
             </div>
           </div>
         </div>
-         <div class="col">
+        <div class="col">
           <div class="card shadow-sm">
-            <img src="./img/flexbox-css.png">
-            <div class="card-body">Site fictício feito com Flexbox.</p>
+            <img src="./img/busca-cep.png">
+            <div class="card-body">
+              <p class="card-text">App buscador de CEP utilizando React e API <br><br></p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a target="_blank" href="https://github.com/VininCosta/Flexbox"><button type="button" class="btn btn-secondary">Ver Projeto</button></a>
+                  <a target="_blank" href="https://github.com/VininCosta/buscador-cep"><button type="button" class="btn btn-secondary">Ver Projeto</button></a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="./img/urna-eletronica.jpg">
-              <div class="card-body">
-                <p class="card-text">Urna Eletrônica feita com Javascript.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <a target="_blank" href="https://github.com/VininCosta/Urna-Eletronica"><button type="button" class="btn btn-secondary">Ver Projeto</button></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <br><br>
+      </div>
+      <br><br>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card shadow-sm">
@@ -150,26 +158,25 @@
               </div>
             </div>
             <div class="col">
-                <div class="card shadow-sm">
-                  <img src="./img/landing.jpg">
-                  <div class="card-body">
-                    <p class="card-text">Landing Page usando HTML e CSS. <br><br></p>
-                    <div class="d-flex justify-content-between align-items-center">
-                      <div class="btn-group">
-                        <a target="_blank" href="https://github.com/VininCosta/landing-page"><button type="button" class="btn btn-secondary">Ver Projeto</button></a>
-                      </div>
+              <div class="card shadow-sm">
+                <img src="./img/flexbox-css.png">
+                <div class="card-body">Site fictício feito com Flexbox.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <a target="_blank" href="https://github.com/VininCosta/Flexbox"><button type="button" class="btn btn-secondary">Ver Projeto</button></a>
                     </div>
                   </div>
                 </div>
               </div>
+            </div>
               <div class="col">
                 <div class="card shadow-sm">
-                  <img src="./img/122.png">
+                  <img src="./img/urna-eletronica.jpg">
                   <div class="card-body">
-                    <p class="card-text">Página feita com o uso de React.js e components.</p>
+                    <p class="card-text">Urna Eletrônica feita com Javascript.</p>
                     <div class="d-flex justify-content-between align-items-center">
                       <div class="btn-group">
-                        <a target="_blank" href="https://github.com/VininCosta/editora-mautec3"><button type="button" class="btn btn-secondary">Ver Projeto</button></a>
+                        <a target="_blank" href="https://github.com/VininCosta/Urna-Eletronica"><button type="button" class="btn btn-secondary">Ver Projeto</button></a>
                       </div>
                     </div>
                   </div>
